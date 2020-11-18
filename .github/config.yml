@@ -1,0 +1,12 @@
+# Configuration for request-info - https://github.com/behaviorbot/request-info
+
+requestInfoReplyComment: >
+  We would appreciate it if you can add more info about this issue! Please make sure you 
+  fill all sections of the issue template. For more help 
+  please refer https://docs.taiko.dev/contributing/#reporting-an-issue
+
+# *OPTIONAL* Label to be added to Issues and Pull Requests with insufficient information given
+requestInfoLabelToAdd: needs-more-info
+
+# Will fail if the issue's body is equal to a provided template
+checkIssueTemplate: true
